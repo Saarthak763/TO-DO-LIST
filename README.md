@@ -59,5 +59,5 @@ if _name_ == "_main_":
 
   text2 = "Goodbye"
   x = text2.center(50)
-  print("x")
+  print(x)
   
