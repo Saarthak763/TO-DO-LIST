@@ -30,7 +30,7 @@ def deleteTask():
     print("Invalid input.")
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
   ### Create a loop to run the app
   text1 = "Welcome to the to do list app "
   y = text1.center(50)
