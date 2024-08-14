@@ -1,4 +1,4 @@
-# TO-DO-LIST
+#TO-DO-LIST
 tasks = []
 
 
@@ -18,24 +18,24 @@ def listTasks():
 
 
 def deleteTask():
-  listTasks()
-  try:
-    taskToDelete = int(input("Enter the task to delete: "))
-    if taskToDelete >= 0 and taskToDelete < len(tasks):
+   listTasks()
+   try:
+     taskToDelete = int(input("Enter the task to delete: "))
+     if taskToDelete >= 0 and taskToDelete < len(tasks):
       tasks.pop(taskToDelete)
       print(f"Task {taskToDelete} has been removed.")
-    else:
+     else:
       print(f"Task #{taskToDelete} was not found.")
-  except:
+   except:
     print("Invalid input.")
 
 
-if __name__ == "_main_":
+
   ### Create a loop to run the app
-  text1 = "Welcome to the to do list app "
-  y = text1.center(50)
-  print(y)
-  while True:
+text1 = "Welcome to the to do list app "
+y = text1.center(50)
+print(y)
+while True:
     print("\n")
     print("Please select one of the following options")
     print("------------------------------------------")
@@ -57,7 +57,9 @@ if __name__ == "_main_":
     else:
       print("Invalid input. Please try again.")
 
-  text2 = "Goodbye"
-  x = text2.center(50)
-  print(x)
+text2 = "Goodbye"
+x = text2.center(50)
+print(x)
+
+
   
